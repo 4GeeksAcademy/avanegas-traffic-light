@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.trafficlight{
+    background-color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.trafficlight .green {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: green;
+    margin-bottom: 15px;
+  }
+
+  .trafficlight .yellow {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: yellow ;
+    margin-bottom: 15px;
+  }
+
+  .trafficlight .red {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+  }
